@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Banner() {
   return (
-    <div className="relative h-[300px] lg:h-[500px] 3xl:-[700px]">
+    <div className="relative h-[300px] lg:h-[500px] 3xl:h-[700px]">
       <Image
         src="https://links.papareact.com/0fm"
         layout="fill"
@@ -15,7 +15,7 @@ function Banner() {
                  font-bold cursor-pointer hover:shadow-xl 
                  active:scale-90 transition duration-150"
         >
-          I'm flexible
+          I am flexible
         </button>
       </div>
     </div>
